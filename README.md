@@ -110,6 +110,4 @@ var order = Object.create({
 order.total;
 ```
 
-## Docs
-
-TODO
+License ISC
