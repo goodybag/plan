@@ -1,6 +1,6 @@
 {
   "name": "plan.js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Plan.js allows consumers to create values whose logic is broken up into individual and self-contained strategies. How those strategies interact with the end-value depends on the plan-type.",
   "main": "index.js",
   "directories": {
