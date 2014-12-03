@@ -28,7 +28,8 @@
   "homepage": "https://github.com/goodybag/plan",
   "devDependencies": {
     "gulp": "^3.8.10",
-    "gulp-jshint": "^1.9.0"
+    "gulp-jshint": "^1.9.0",
+    "mocha": "^2.0.1"
   },
   "jshint": {
     "laxcomma": true,
