@@ -2,7 +2,7 @@ var gulp = require('gulp');
 var pkg  = require('./package.json');
 
 var config = {
-  jsFiles: ['*.js', 'test/*.js']
+  jsFiles: ['*.js', 'lib/*.js', 'test/*.js']
 };
 
 gulp.task( 'lint', function(){

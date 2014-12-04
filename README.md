@@ -60,6 +60,10 @@ Adds a strategy to the plan. Strategy may be _function_ an _object_:
 
 Runs all strategies to get the value of the plan
 
+#### `.clone()`
+
+Clones the current instance, data and middleware intact.
+
 ### `Plan.Reduce( intialValue )`
 
 A reduce plan. Initial value is passed into the reduce chain.

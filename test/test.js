@@ -59,4 +59,20 @@ describe( 'Plan.Reduce', function(){
     assert.equal( planA.data.a, 10 );
     assert.equal( planA.value(), 11 );
   });
+
+  it( '.clone()', function(){
+    var PlanA = new Plan.Reduce('')
+      .set( 'pregnant', true )
+      .use( function( curr ){
+        return curr + (this.pregnant ? 'Lol u pregnant.' : 'No more baby!');
+      });
+
+    var PlanB = PlanA.clone()
+      .set( 'pregnant', false );
+
+    assert.equal( PlanA.value(), 'Lol u pregnant.' );
+    assert.equal( PlanB.value(), 'No more baby!' );
+    assert.equal( PlanA.value(), 'Lol u pregnant.' );
+    assert.equal( PlanB.value(), 'No more baby!' );
+  });
 });
