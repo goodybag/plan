@@ -1,0 +1,29 @@
+{
+  "name": "plan.js",
+  "main": "index.js",
+  "version": "1.0.2",
+  "homepage": "https://github.com/goodybag/plan",
+  "authors": [
+    "John Fawcett <jrf0110@gmail.com>"
+  ],
+  "description": "Plan.js allows consumers to create values whose logic is broken up into individual and self-contained strategies. How those strategies interact with the end-value depends on the plan-type.",
+  "moduleType": [
+    "amd",
+    "node"
+  ],
+  "keywords": [
+    "strategies",
+    "strategy",
+    "plan",
+    "composable",
+    "values"
+  ],
+  "license": "ISC",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
